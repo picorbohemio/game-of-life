@@ -1,6 +1,6 @@
 import React, { useCallback, useRef, useState } from 'react';
 import './App.css';
-import produce from "immer";
+import {produce} from "immer"
 import Table from './components/Table';
 import Grid from '@mui/material/Grid2';
 import Container from '@mui/material/Container';

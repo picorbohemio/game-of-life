@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import produce from "immer";
+import {produce} from "immer"
 
 type TableProps = { 
     numRows: number, 
